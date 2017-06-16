@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/pre-dexed/debug/classes-935720351df901bcc07b0a3e16cc55f40b8d0dfa.jar" />
+    </item>
+    <item
+        jar="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/pre-dexed/debug/classes-984853ea39af6b6765a43e344d3073f753d0d882.jar" />
+    </item>
+    <item
+        jar="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/pre-dexed/debug/classes-1d6038e9bb393802287d63d640e6dd0d860b8ca2.jar" />
+    </item>
+    <item
+        jar="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-fc14d8d0fb52ae06328b846258ece63112c31a3f.jar" />
+    </item>
+    <item
+        jar="/home/bappy/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-b4705e1d23503821ca82f39df8ad2bd7838d695a.jar" />
+    </item>
+    <item
+        jar="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/pre-dexed/debug/classes-a55a2e2f9e04900e4793c35527e1b043899d074f.jar" />
+    </item>
+    <item
+        jar="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/pre-dexed/debug/classes-77591246ea401c04b72ce9ff6a6429f8d2bbcdc1.jar" />
+    </item>
+
+</items>
