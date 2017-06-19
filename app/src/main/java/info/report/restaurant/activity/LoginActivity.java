@@ -6,6 +6,7 @@
 //http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/
 package info.report.restaurant.activity;
 
+
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -15,18 +16,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import com.android.volley.Request.Method;
+import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.HashMap;
 import java.util.Map;
-
 import info.report.restaurant.R;
 import info.report.restaurant.app.AppConfig;
 import info.report.restaurant.app.AppController;
@@ -59,6 +56,7 @@ public class LoginActivity extends Activity {
 
         // SQLite database handler
         db = new SQLiteHandler(getApplicationContext());
+
 
         // Session manager
         session = new SessionManager(getApplicationContext());
@@ -109,13 +107,16 @@ public class LoginActivity extends Activity {
      * function to verify login details in mysql db
      * */
     private void checkLogin(final String email, final String password) {
+
+
+
         // Tag used to cancel the request
         String tag_string_req = "req_login";
 
         pDialog.setMessage("Logging in ...");
         showDialog();
 
-        StringRequest strReq = new StringRequest(Method.POST,
+        StringRequest strReq = new StringRequest(Request.Method.POST,
                 AppConfig.URL_LOGIN, new Response.Listener<String>() {
 
             @Override
@@ -125,25 +126,35 @@ public class LoginActivity extends Activity {
 
                 try {
                     JSONObject jObj = new JSONObject(response);
-                    boolean error = jObj.getBoolean("error");
+
+
+
+
+
+//                    boolean error = jObj.getBoolean("error");
+
+
 
                     // Check for error node in json
-                    if (!error) {
+                    if (true) {
                         // user successfully logged in
                         // Create login session
                         session.setLogin(true);
 
                         // Now store the user in SQLite
-                        String uid = jObj.getString("uid");
+//                        String uid = jObj.getString("uid");
+//
+//                        JSONObject user = jObj.getJSONObject("user");
 
-                        JSONObject user = jObj.getJSONObject("user");
-                        String name = user.getString("name");
-                        String email = user.getString("email");
-                        String created_at = user
+                        String name = jObj.getString("username");
+
+                        String email = jObj.getString("email");
+                        String phoneNumber = jObj.getString("phone");
+                        String created_at = jObj
                                 .getString("created_at");
 
                         // Inserting row in users table
-                        db.addUser(name, email, uid, created_at);
+                        db.addUser(name, email, phoneNumber, created_at);
 
                         // Launch main activity
                         Intent intent = new Intent(LoginActivity.this,
@@ -178,7 +189,7 @@ public class LoginActivity extends Activity {
             protected Map<String, String> getParams() {
                 // Posting parameters to login url
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("email", email);
+                params.put("username", email);
                 params.put("password", password);
 
                 return params;
