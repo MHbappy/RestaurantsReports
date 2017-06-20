@@ -3,6 +3,7 @@
 
     <string name="app_name">Android Login and Registration</string>
     <string name="hint_email">Email</string>
+    <string name="hint_username">User</string>
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>
     <string name="btn_login">LOGIN</string>
@@ -13,5 +14,10 @@
     <string name="btn_logout">LOGOUT</string>
     <string name="name">Fullname</string>
     <string name="title_activity_forgot">ForgotActivity</string>
+    <string name="title_activity_menue">MenueActivity</string>
+    <string name="salesReport">Sales Report</string>
+    <string name="anotherReport">Another Report</string>
+    <string name="summaryReport">Summary Report</string>
+
 
 </resources>

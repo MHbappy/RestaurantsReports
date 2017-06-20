@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:2:1-48:12
+ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml
@@ -48,7 +48,7 @@ ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndR
 	android:name
 		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:14:22-77
 application
-ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:16:5-46:19
+ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:16:5-45:19
 MERGED from [com.android.support:design:23.1.1] /home/bappy/.android/build-cache/dee16c9c93a58ccaeceda8a13c1a994b7729ae9b/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/bappy/.android/build-cache/6810a7c6af6cb118ba2d5e3ceb1f34575483a542/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /home/bappy/.android/build-cache/ecf72b21950f71b62c5222d4eee30f7b1ca5a929/output/AndroidManifest.xml:22:5-20
@@ -59,15 +59,15 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/bappy
 	android:allowBackup
 		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:18:9-35
 	android:icon
-		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:19:9-45
+		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:19:9-39
 	android:theme
-		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:21:9-40
+		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:21:9-52
 	android:name
 		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:17:9-42
 activity#info.report.restaurant.activity.LoginActivity
 ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:22:9-32:20
 	android:label
-		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:24:13-45
+		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:24:13-29
 	android:launchMode
 		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:25:13-43
 	android:windowSoftInputMode
@@ -92,11 +92,15 @@ ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndR
 		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:41:13-43
 	android:name
 		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:39:13-50
-activity#info.report.restaurant.activity.ForgotActivity
-ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:42:9-45:68
-	android:label
-		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:44:13-58
-	android:theme
-		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:45:13-56
+activity#info.report.restaurant.activity.ReportActivity
+ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:42:9-61
 	android:name
-		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:43:13-52
+		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:42:19-58
+activity#info.report.restaurant.activity.MenueActivity
+ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:43:9-60
+	android:name
+		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:43:19-57
+activity#info.report.restaurant.activity.SummaryActivity
+ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:44:9-71
+	android:name
+		ADDED from /home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/AndroidManifest.xml:44:19-59

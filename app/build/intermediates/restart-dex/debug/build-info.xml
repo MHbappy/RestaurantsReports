@@ -6,25 +6,25 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1497874174628"
+    timestamp="1497956396551"
     token="-8503362047455208423"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="111" />
+        duration="601" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="6" />
+        duration="18" />
     <task
         name="verifier"
-        duration="1" />
+        duration="38" />
 
     <artifact
-        location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/outputs/apk/app-debug.apk"
@@ -32,7 +32,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1497864289742"
+        timestamp="1497951944500"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -73,26 +73,18 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497873748434"
+        timestamp="1497956225539"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497874114171"
+        timestamp="1497956396551"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1497874174628"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/outputs/apk/app-debug.apk"

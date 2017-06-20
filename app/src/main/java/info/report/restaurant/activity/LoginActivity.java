@@ -64,7 +64,7 @@ public class LoginActivity extends Activity {
         // Check if user is already logged in or not
         if (session.isLoggedIn()) {
             // User is already logged in. Take him to main activity
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            Intent intent = new Intent(LoginActivity.this, MenueActivity.class);
             startActivity(intent);
             finish();
         }
@@ -126,25 +126,10 @@ public class LoginActivity extends Activity {
 
                 try {
                     JSONObject jObj = new JSONObject(response);
-
-
-
-
-
-//                    boolean error = jObj.getBoolean("error");
-
-
-
-                    // Check for error node in json
                     if (true) {
-                        // user successfully logged in
-                        // Create login session
                         session.setLogin(true);
 
-                        // Now store the user in SQLite
-//                        String uid = jObj.getString("uid");
-//
-//                        JSONObject user = jObj.getJSONObject("user");
+
 
                         String name = jObj.getString("username");
 
@@ -154,11 +139,11 @@ public class LoginActivity extends Activity {
                                 .getString("created_at");
 
                         // Inserting row in users table
-                        db.addUser(name, email, phoneNumber, created_at);
+                        db.addUser(name, email, inputPassword.getText().toString().trim(), created_at);
 
                         // Launch main activity
                         Intent intent = new Intent(LoginActivity.this,
-                                MainActivity.class);
+                                MenueActivity.class);
                         startActivity(intent);
                         finish();
                     } else {
@@ -170,7 +155,8 @@ public class LoginActivity extends Activity {
                 } catch (JSONException e) {
                     // JSON error
                     e.printStackTrace();
-                    Toast.makeText(getApplicationContext(), "Json error: " + e.getMessage(), Toast.LENGTH_LONG).show();
+//                    Toast.makeText(getApplicationContext(), "Json error: " + e.getMessage(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Your username or password incorrect", Toast.LENGTH_LONG).show();
                 }
 
             }

@@ -1,4 +1,4 @@
-#Sun Jun 18 18:07:18 BDT 2017
+#Tue Jun 20 16:59:59 BDT 2017
 base.0=/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3dd5ff14cc92b88c0d33a088f6f31ec8d8c9e193
 renamed.1=classes2.dex
 renamed.0=classes.dex
