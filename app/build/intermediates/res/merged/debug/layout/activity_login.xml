@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:padding="10dp" >
 
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -51,19 +52,6 @@
             android:background="@color/btn_login_bg"
             android:text="@string/btn_login"
             android:textColor="@color/btn_login" />
-
-        <!-- Link to Login Screen -->
-
-        <!--<Button-->
-            <!--android:id="@+id/btnLinkToRegisterScreen"-->
-            <!--android:layout_width="fill_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginTop="40dip"-->
-            <!--android:background="@null"-->
-            <!--android:text="@string/btn_link_to_register"-->
-            <!--android:textAllCaps="false"-->
-            <!--android:textColor="@color/white"-->
-            <!--android:textSize="15dp" />-->
     </LinearLayout>
 
 </LinearLayout>

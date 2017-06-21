@@ -1,7 +1,4 @@
-#Tue Jun 20 16:59:59 BDT 2017
-base.0=/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3dd5ff14cc92b88c0d33a088f6f31ec8d8c9e193
-renamed.1=classes2.dex
+#Wed Jun 21 06:25:41 BDT 2017
+base.0=/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ae9e50be91421424e884caefcec3f72586082548/classes.dex
-base.1=/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ae9e50be91421424e884caefcec3f72586082548
-file.0=/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3dd5ff14cc92b88c0d33a088f6f31ec8d8c9e193/classes.dex
+file.0=/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

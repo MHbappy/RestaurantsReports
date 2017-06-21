@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_logo.png",
-        "source": "/home/bappy/Desktop/RunningApplication/AndroidForPos/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration v2/RestaurantsReports/app/src/main/res/mipmap-hdpi/ic_logo.png"
+        "merged": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_logo.png",
+        "source": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/res/mipmap-hdpi/ic_logo.png"
+    },
+    {
+        "merged": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/res/merged/debug/mipmap-hdpi/logo_full.png",
+        "source": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/res/mipmap-hdpi/logo_full.png"
     }
 ]

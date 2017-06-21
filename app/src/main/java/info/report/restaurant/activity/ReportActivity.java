@@ -1,5 +1,6 @@
 package info.report.restaurant.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,11 +14,17 @@ import java.util.HashMap;
 
 import info.report.restaurant.R;
 import info.report.restaurant.helper.SQLiteHandler;
+import info.report.restaurant.helper.SessionManager;
 
 public class ReportActivity extends AppCompatActivity {
 
     private WebView myWebView;
+
+
     private SQLiteHandler db;
+    private SessionManager session;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +43,12 @@ public class ReportActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
 
+        // SqLite database handler
+        db = new SQLiteHandler(getApplicationContext());
+        // session manager
+        session = new SessionManager(getApplicationContext());
+
+
 
         myWebView.loadUrl(url);
         myWebView.setWebViewClient(new WebViewClient());
@@ -50,11 +63,38 @@ public class ReportActivity extends AppCompatActivity {
     }
 
 
+    private void logoutUser() {
+        session.setLogin(false);
+        db.deleteUsers();
+        // Launching the login activity
+        Intent intent = new Intent(ReportActivity.this, LoginActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Take appropriate action for each action item click
         switch (item.getItemId()) {
-            case R.id.action_check_updates:
+            case R.id.dash_board:
+                Intent intent2 = new Intent(ReportActivity.this, DashBoard.class);
+                startActivity(intent2);
+                return true;
+
+
+            case R.id.sales_report:
+//                Intent intent = new Intent(ReportActivity.this, DashBoard.class);
+//                startActivity(intent);
+                return true;
+
+            case R.id.summary_report:
+                Intent intent1= new Intent(ReportActivity.this, SummaryActivity.class);
+                startActivity(intent1);
+                return true;
+
+            case R.id.logout:
+                logoutUser();
                 // check for updates action
                 return true;
             default:
