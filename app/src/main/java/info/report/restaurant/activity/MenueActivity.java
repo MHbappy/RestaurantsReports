@@ -15,8 +15,10 @@ import info.report.restaurant.helper.SessionManager;
 
 public class MenueActivity extends AppCompatActivity {
 
+    private Button dashboardButton;
     private Button salesForReport;
     private Button anotherReport;
+
 
 
     private TextView txtName;
@@ -35,6 +37,7 @@ public class MenueActivity extends AppCompatActivity {
 
         salesForReport = (Button) findViewById(R.id.salesReport);
         anotherReport = (Button) findViewById(R.id.summaryReport);
+        dashboardButton = (Button) findViewById(R.id.dashboard_button);
 //        buttonForAboutUs = (Button) findViewById(R.id.aboutUs);
 
 
@@ -61,6 +64,16 @@ public class MenueActivity extends AppCompatActivity {
         // Displaying the user details on the screen
         txtName.setText(name);
         txtEmail.setText(email);
+
+
+
+        dashboardButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent( MenueActivity.this, DashBoard.class);
+                startActivity(i);
+            }
+        });
 
 
         salesForReport.setOnClickListener(new View.OnClickListener() {

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Check updates -->
+    <!--<item android:id="@+id/action_check_updates"-->
+        <!--android:text="Log Out"-->
+        <!--android:title="Log Out"-->
+        <!--android:showAsAction="ifRoom"-->
+        <!--android:actionViewClass="android.widget.SearchView"-->
+        <!--/>-->
+
+
+    <item android:id="@+id/dash_board"
+        android:icon="@drawable/ic_launcher"
+        android:title="Dashboard"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/sales_report"
+        android:icon="@drawable/ic_launcher"
+        android:title="Sales Report"
+        android:showAsAction="ifRoom"/>
+
+    <!-- Location Found -->
+    <item android:id="@+id/summary_report"
+        android:icon="@drawable/ic_launcher"
+        android:title="Summary Report"
+        android:showAsAction="ifRoom" />
+
+    <!-- Refresh -->
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_launcher"
+        android:title="Logout"
+        android:showAsAction="ifRoom" />
+
+    <!-- Help -->
+
+
+</menu>

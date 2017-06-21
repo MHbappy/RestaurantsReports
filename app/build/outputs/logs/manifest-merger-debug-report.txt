@@ -67,7 +67,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/bappy
 activity#info.report.restaurant.activity.LoginActivity
 ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/AndroidManifest.xml:22:9-32:20
 	android:label
-		ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/AndroidManifest.xml:24:13-29
+		ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/AndroidManifest.xml:24:13-45
 	android:launchMode
 		ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/AndroidManifest.xml:25:13-43
 	android:windowSoftInputMode
@@ -101,7 +101,7 @@ ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/Androi
 activity#info.report.restaurant.activity.MenueActivity
 ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/AndroidManifest.xml:46:9-48:15
 	android:label
-		ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/AndroidManifest.xml:47:13-34
+		ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/AndroidManifest.xml:47:13-33
 	android:name
 		ADDED from /home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/AndroidManifest.xml:46:19-57
 activity#info.report.restaurant.activity.SummaryActivity

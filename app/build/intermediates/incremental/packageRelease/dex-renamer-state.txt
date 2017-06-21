@@ -1,0 +1,4 @@
+#Wed Jun 21 14:23:31 BDT 2017
+base.0=/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

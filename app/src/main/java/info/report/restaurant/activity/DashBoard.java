@@ -29,7 +29,7 @@ public class DashBoard extends AppCompatActivity {
         HashMap<String, String> user = db.getUserDetails();
         String name = user.get("name");
         String pass = user.get("uid");
-        String url = "http://royalrestaurantbd.com/api-dashboard?username="+name+"&password="+pass;
+        String url = "http://admin.royalrestaurantbd.com/api-dashboard?username="+name+"&password="+pass;
 
 
         super.onCreate(savedInstanceState);

@@ -50,6 +50,20 @@ android:layout_margin="20dp"
         android:orientation="vertical" >
 
 
+
+        <Button
+            android:id="@+id/dashboard_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Dashboard"
+            android:background="@color/btn_login"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+
         <Button
             android:id="@+id/salesReport"
             style="?android:textAppearanceSmall"
@@ -60,6 +74,9 @@ android:layout_margin="20dp"
             android:background="@color/btn_login"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
+
+
+
 
         <Button
             android:id="@+id/summaryReport"

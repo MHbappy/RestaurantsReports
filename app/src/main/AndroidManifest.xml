@@ -21,7 +21,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activity.LoginActivity"
-            android:label=""
+            android:label="Royal Restaurant"
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -44,7 +44,7 @@
 
             />
         <activity android:name=".activity.MenueActivity"
-            android:label="Menue"
+            android:label="Menu"
             />
         <activity android:name=".activity.SummaryActivity"
             android:label="Summary Report"

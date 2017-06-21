@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/home/bappy/.android/build-cache/6810a7c6af6cb118ba2d5e3ceb1f34575483a542/output/res/values-w480dp/values-w480dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 61,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/home/bappy/.android/build-cache/6810a7c6af6cb118ba2d5e3ceb1f34575483a542/output/res/values-w480dp/values-w480dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 470,
+                        "endColumn": 71,
+                        "endOffset": 537
+                    }
+                }
+            }
+        ]
+    }
+]

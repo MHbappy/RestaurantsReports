@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/res/merged/release/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/res/merged/release/mipmap-hdpi/logo_full.png",
+        "source": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/res/mipmap-hdpi/logo_full.png"
+    },
+    {
+        "merged": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/res/merged/release/mipmap-hdpi/ic_logo.png",
+        "source": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/src/main/res/mipmap-hdpi/ic_logo.png"
+    }
+]

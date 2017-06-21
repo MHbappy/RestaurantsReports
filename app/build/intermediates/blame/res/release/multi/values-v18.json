@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/bappy/Desktop/AndoridPos/RestaurantsReports/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v18/values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/home/bappy/.android/build-cache/6810a7c6af6cb118ba2d5e3ceb1f34575483a542/output/res/values-v18/values-v18.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 48,
+                        "endOffset": 273
+                    }
+                }
+            }
+        ]
+    }
+]
